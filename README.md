@@ -6,3 +6,5 @@ rtc=machine.RTC()
 timestamp=rtc.datetime()
 datestring="%02d_%02d_%04d"%(timestamp[2],timestamp[1],timestamp[0])
 timestring="%02d.%02d.%02d"%(timestamp[4],timestamp[5],timestamp[6])
+
+With the help of a led, we can control that the data flow is provided and written into the sd card when external power is used. In addition, 4 UART channels are also on. The desired channels can be opened by removing the comment lines in the code.
