@@ -9,5 +9,8 @@ Since there is no RTC Clock in Raspberry pi, real-time accurate time and date wr
 
 With the help of a led, we can control that the data flow is provided and written into the sd card when external power is used. In addition, 4 UART channels are also on. The desired channels can be opened by removing the comment lines in the code.
 
-![PCB_2D](https://user-images.githubusercontent.com/110588407/184586287-c513dcb0-42ca-4e31-ac8f-c0b8cbe59f72.png)
 PCB view
+
+
+![PCB_2D](https://user-images.githubusercontent.com/110588407/184586287-c513dcb0-42ca-4e31-ac8f-c0b8cbe59f72.png)
+
