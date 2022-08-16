@@ -1,5 +1,5 @@
-# Raspberry-Pi-Pico-Data-Logger-to-SD-2-Uart-
-By using two serial connections using Raspberry Pi Pico, it allows to view two log files separately on the terminal and to open a new file in the micro sd card every time the device is powered on and write the two serial data to two different text files. In addition, this process can be performed without using a computer, by using an external power supply. In this method, when the device starts to get power, it starts to do its job.
+# Raspberry-Pi-Pico-Data-Logger-to-SD-4-Uart-
+By using four serial connections using Raspberry Pi Pico, it allows to view four log files separately on the terminal and to open a new file in the micro sd card every time the device is powered on and write the two serial data to four different text files. In addition, this process can be performed without using a computer, by using an external power supply. In this method, when the device starts to get power, it starts to do its job.
 Since there is no RTC Clock in Raspberry pi, real-time accurate time and date writing cannot be performed, but this process works as it should when a computer connection is established. The code directory to be added is also shown below;
 
 * rtc=machine.RTC()
